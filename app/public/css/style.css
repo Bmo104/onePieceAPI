@@ -1,0 +1,92 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: stretch;
+  width: 100vw;
+  min-height: 100vw;
+}
+
+button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside {
+  position: sticky;
+  top: 20px;
+  max-width: 150px;
+  height: 1px;
+}
+
+#poster {
+  border: 2px solid #2D1A13;
+  background-color: #F2D7C3;
+  display: flex;
+  padding: 1px;
+  width: 400px;
+  max-height: 580px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  justify-self: center;
+}
+
+#poster * {
+  margin: 0px;
+}
+
+#poster h1 {
+  font-size: 80px;
+  margin-top: 0px;
+}
+
+#poster img {
+  border: 2px solid #2D1A13;
+  width: 350px;
+}
+
+#poster h3 {
+  font-size: 30px;
+  text-align: justify;
+}
+
+#poster h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+#poster p {
+  font-size: 25px;
+}
+
+#poster span {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3px;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+#poster strong {
+  font-size: 30px;
+}
+
+#poster small {
+  font-size: 8px;
+  flex: 1;
+}
